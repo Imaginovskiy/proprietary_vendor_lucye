@@ -478,6 +478,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+	vendor/lge/g6-common/proprietary/vendor/lib/libpcas_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcas_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib/libuicc_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuicc_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib/vendor.lge.hardware.light@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.light@1.0_vendor.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so \
@@ -999,6 +1002,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/lge/g6-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/lge/g6-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
+	vendor/lge/g6-common/proprietary/vendor/lib/vendor.lge.hardware.radio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.radio@1.0_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib64/vendor.lge.hardware.light@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.light@1.0_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib64/libpcas_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcas_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib64/libuicc_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuicc_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib64/android.system.net.netd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.net.netd@1.0_vendor.so \
+	vendor/lge/g6-common/proprietary/vendor/lib64/vendor.lge.hardware.radio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.radio@1.0_vendor.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
